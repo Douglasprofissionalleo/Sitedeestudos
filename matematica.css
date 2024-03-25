@@ -1,0 +1,173 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+}
+
+aside {
+    background-color: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+aside h2 {
+    margin-bottom: 10px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 10px;
+}
+
+aside ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.module {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.module-title {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.content-wrapper {
+    display: flex;
+}
+
+.video,
+.notes {
+    flex: 1;
+}
+
+.video {
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.video-container {
+    flex: 1;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.video-controls {
+    margin-top: 30px;
+}
+
+.notes {
+    flex: 1;
+}
+
+
+.notes textarea {
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#matematica-11-ano {
+    margin-top: 20px;
+}
+
+#matematica-11-ano .video-container {
+    flex: 1;
+    margin-right: 10px;
+}
+
+#matematica-11-ano .video-controls {
+    margin-top: 10px;
+}
+
+#matematica-11-ano .notes {
+    flex: 1;
+}
+
+#matematica-basica-intermediaria {
+    margin-top: 20px;
+}
+
+#matematica-basica-intermediaria .video-container {
+    flex: 1;
+    margin-right: 10px;
+}
+
+#matematica-basica-intermediaria .video-controls {
+    margin-top: 10px;
+}
+
+#matematica-basica-intermediaria .notes {
+    flex: 1;
+}
+
+#matematica-avancada {
+    margin-top: 20px;
+}
+
+#matematica-avancada .video-container {
+    flex: 1;
+    margin-right: 10px;
+}
+
+#matematica-avancada .video-controls {
+    margin-top: 10px;
+}
+
+#matematica-avancada .notes {
+    flex: 1;
+}
+
